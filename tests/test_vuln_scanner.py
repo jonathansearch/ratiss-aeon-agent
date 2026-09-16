@@ -18,7 +18,7 @@ from security.vuln_auth import authenticate, revoke, is_authenticated
 from security.vuln_scanner import VulnerabilityScanner, ATTACK_ACTIONS_FORBIDDEN
 
 
-CORRECT_PASSWORD = "Monnamour2008#"
+CORRECT_PASSWORD = "Test_Fixture_Password_123!"  # fixture de test, jamais un secret
 
 
 @pytest.fixture(autouse=True)

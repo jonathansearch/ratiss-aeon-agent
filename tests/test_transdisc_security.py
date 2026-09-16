@@ -19,7 +19,7 @@ from security.transdisc_security import (
 )
 
 
-CORRECT_PASSWORD = "Monnamour2008#"
+CORRECT_PASSWORD = "Test_Fixture_Password_123!"  # fixture de test, jamais un secret
 
 
 # ── Fixtures ────────────────────────────────────────────────────────────────

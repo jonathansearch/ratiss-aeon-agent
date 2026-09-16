@@ -25,11 +25,11 @@ logger = logging.getLogger("RATISS-VULN-AUTH")
 
 # ── Hash PBKDF2 du mot de passe d'activation (jamais le mot de passe en clair) ──
 # Géné avec security.token_hasher.hash_token(). Sel aléatoire 32 octets.
-# Le mot de passe original est "Monnamour2008#" — connu uniquement de l'opérateur souverain.
+# Le mot de passe d'activation est fourni par l'operateur et n'est jamais
+# versionne : seul ce hash PBKDF2 est stocke ici.
 # PBKDF2-HMAC-SHA256 @ 600 000 itérations : résistant au craquage hors-ligne.
 _PASSWORD_HASH = (
-    "pbkdf2_sha256$600000$0d1834228e463811a4730c592dc59424a20d9ba1fb3dd61e5703a5e37e08d432"
-    "$b1afb91d27a46a7eb3f95f3d22ddf667f03e22d2b02249ed56fc9edfbc313879"
+    "pbkdf2_sha256$600000$5cb006df8045fceff23dd0702e43d32bb27cdb431c1bb00ee60bc6bf1cfea5e0$79e1d3bb5ea19e438984b00bd268b77e6f0996a5dbf2efd7573577ab0b862300"
 )
 
 # Durée de validité de l'authentification (secondes) avant re-demande du mot de passe
