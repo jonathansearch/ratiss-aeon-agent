@@ -92,3 +92,4 @@ htmlcov/
 *.key
 secrets/
 credentials/
+*.pyc
