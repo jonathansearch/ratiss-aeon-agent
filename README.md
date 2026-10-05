@@ -10,11 +10,11 @@
 
 # ⚛️ RATISS Aeon Prime
 
-### Agent scientifique autonome souverain
+### Sovereign autonomous scientific agent
 
 **Real-time Adaptive Topological & Integrative Scientific System**
 
-Un agent agentique souverain combinant **physique quantique** (Lanczos ED), **topologie computationnelle**, **biologie structurale**, **cryptographie ZK-STARK**, navigation web, terminal intégré, exécution Python sandbox, recherche scientifique et génération d'artéfacts — le tout dans un Memory Guard strict, 100 % souverain.
+A sovereign agentic agent combining **quantum physics** (Lanczos ED), **computational topology**, **structural biology**, **ZK-STARK cryptography**, web navigation, an integrated terminal, sandboxed Python execution, scientific research and artifact generation — all within a strict Memory Guard, 100% sovereign.
 
 <br>
 
@@ -27,261 +27,261 @@ Un agent agentique souverain combinant **physique quantique** (Lanczos ED), **to
 
 <br>
 
-**Auteur** · Jonathan Evina
+**Author** · Jonathan Evina
 **ORCID** · [0009-0000-4092-5313](https://orcid.org/0009-0000-4092-5313)
 **DOI** · [10.17605/OSF.IO/6JZMB](https://doi.org/10.17605/OSF.IO/6JZMB)
-**Propriété intellectuelle** · JOHNKING0 & architecte Jonathan Evina
+**Intellectual property** · JOHNKING0 & architect Jonathan Evina
 
 </div>
 
 ---
 
-## 📑 Table des matières
+## 📑 Table of contents
 
 | | Section | |
 |:---:|---|:---:|
-| 🆕 | [Ce qui est nouveau : identité, mémoire & écran d'entrée](#nouveau) | |
-| 📸 | [Captures d'écran](#captures) | |
-| 🔭 | [Vue d'ensemble](#vue-densemble) | |
-| 🪪 | [Identité souveraine (Sovereign Prompt)](#identite-souveraine) | |
-| 🧠 | [Mémoire persistante (hors contexte du modèle)](#memoire-persistante) | |
-| 🚪 | [Écran d'entrée & onboarding](#ecran-entree) | |
-| 🔐 | [Standard de sécurité d'entrée](#securite-entree) | |
+| 🆕 | [What's new: identity, memory & entry screen](#whats-new) | |
+| 📸 | [Screenshots](#screenshots) | |
+| 🔭 | [Overview](#overview) | |
+| 🪪 | [Sovereign identity (Sovereign Prompt)](#sovereign-identity-sovereign-prompt) | |
+| 🧠 | [Persistent memory (outside the model context)](#persistent-memory-outside-the-model-context) | |
+| 🚪 | [Entry screen & onboarding](#entry-screen--onboarding) | |
+| 🔐 | [Entry security standard](#entry-security-standard) | |
 | 🏛️ | [Architecture](#architecture) | |
-| 🚀 | [Démarrage rapide](#demarrage-rapide) | |
-| 🖥️ | [Interface web (v9.3)](#interface-web) | |
-| 🔌 | [Intégrations externes](#integrations-externes) | |
-| 📁 | [Import universel](#import-universel) | |
-| 🧠 | [Routeur LLM](#routeur-llm) | |
-| 🔄 | [Auto-amélioration (RLM)](#auto-amelioration) | |
-| 🛠️ | [Compétences (36 actions)](#competences) | |
-| 📡 | [API REST](#api-rest) | |
-| 🔒 | [Sécurité & souveraineté](#securite-souverainete) | |
-| 📦 | [Déploiement](#deploiement) | |
+| 🚀 | [Quick start](#quick-start) | |
+| 🖥️ | [Web interface (v9.3)](#web-interface-v93) | |
+| 🔌 | [External integrations](#external-integrations-open-research-chain) | |
+| 📁 | [Universal import](#universal-file-import) | |
+| 🧠 | [LLM router](#multi-provider-llm-router) | |
+| 🔄 | [Auto-improvement (RLM)](#auto-improvement-layer-rlm--continual-harness--v92) | |
+| 🛠️ | [Skills (36 actions)](#skills-36-actions) | |
+| 📡 | [REST API](#rest-api) | |
+| 🔒 | [Security & sovereignty](#security--sovereignty) | |
+| 📦 | [Deployment](#deployment) | |
 
 ---
 
-<a id="nouveau"></a>
-## 🆕 Ce qui est nouveau
+<a id="whats-new"></a>
+## 🆕 What's new
 
-### 🛡️ v9.5 — Module de scan de vulnérabilités + topologie transdisciplinaire
+### 🛡️ v9.5 — Vulnerability scanning module + transdisciplinary topology
 
-Nouveau module **vuln_scanner** : un scanner de vulnérabilités **bridé architecturalement** pour l'audit défensif et légal. Inspiré des outils d'audit professionnels, il permet de scanner un système (réseau, web, code source, configuration) et de produire un rapport de vulnérabilités — mais ne peut **JAMAIS** exploiter, brute-forcer, ou installer de backdoor.
+New **vuln_scanner** module: a vulnerability scanner **architecturally restricted** for defensive and legal auditing. Inspired by professional audit tools, it can scan a system (network, web, source code, configuration) and produce a vulnerability report — but can **NEVER** exploit, brute-force, or install a backdoor.
 
-- **Authentification** : module désactivé par défaut, activé par mot de passe opérateur (haché PBKDF2, jamais en clair)
-- **Bridage architectural** : 40+ actions offensives interdites par construction (`exploit`, `brute_force`, `reverse_shell`, `metasploit`, `backdoor`, `ddos`...)
-- **Scans** : réseau (ports, services, bannières), web (headers, TLS, fuite d'infos), SAST (SQLi, XSS, secrets codés en dur, désérialisation, crypto faible), config (fichiers sensibles, permissions)
-- **Rapport** : sévérités CRITICAL/HIGH/MEDIUM/LOW, alignement OWASP Top 10 2021, recommandations de remédiation
-- **🧬 Topologie transdisciplinaire** : la signature RATISS — homologie persistante (β₀, β₁, β₂) appliquée à la surface d'attaque. Les cycles (β₁) révèlent les **chaînes d'attaque (kill chains)**. Score de risque topologique 0-100. Rapports chiffrés Fernet (clé = mot de passe opérateur)
-- **Cas d'usage** : consultation cybersécurité entreprise, audit pré-contractuel, souveraineté africaine
-- **Tests** : 88 tests (bridage, auth, SAST, config, réseau, topologie, chiffrement) + 19 transdisc = 107 tests au total, 0 échec
+- **Authentication**: module disabled by default, enabled by operator password (PBKDF2-hashed, never in clear text)
+- **Architectural restrictions**: 40+ offensive actions forbidden by construction (`exploit`, `brute_force`, `reverse_shell`, `metasploit`, `backdoor`, `ddos`...)
+- **Scans**: network (ports, services, banners), web (headers, TLS, information leaks), SAST (SQLi, XSS, hard-coded secrets, deserialization, weak crypto), config (sensitive files, permissions)
+- **Report**: CRITICAL/HIGH/MEDIUM/LOW severities, OWASP Top 10 2021 alignment, remediation recommendations
+- **🧬 Transdisciplinary topology**: the RATISS signature — persistent homology (β₀, β₁, β₂) applied to the attack surface. Cycles (β₁) reveal the **kill chains**. Topological risk score 0-100. Fernet-encrypted reports (key = operator password)
+- **Use cases**: enterprise cybersecurity consulting, pre-contractual audit, African sovereignty
+- **Tests**: 88 tests (restrictions, auth, SAST, config, network, topology, encryption) + 19 transdisc = 107 tests in total, 0 failures
 
-Voir [la section dédiée](#vuln-scanner).
+See [the dedicated section](#vulnerability-scanning-module--legal-defensive-audit).
 
-### 🔒 v9.4.1 — Durcissement sécurité (audit post-tests)
+### 🔒 v9.4.1 — Security hardening (post-test audit)
 
-Suite à un audit de pénétration complet, **7 vulnérabilités/bugs corrigés** (dont 3 critiques) :
+Following a full penetration audit, **7 vulnerabilities/bugs fixed** (3 of them critical):
 
-- **Anti-RCE pipe-to-shell** : détection par regex de `curl/wget ... | bash/sh/zsh`, `; bash`, `&& bash`, `eval $(curl ...)` — contournement par URL interposée éliminé
-- **Anti-DoS sandbox** : watchdog thread `_thread.interrupt_main()` interrompt les boucles infinies après N secondes en mode Python restreint
-- **ZK-STARK strict** : les invariants physiques (énergie négative, entropie non négative, lattice valide) échouent explicitement si les clés sont absentes — fini les faux positifs sur structure mal formée
-- **Sandbox `__import__` restreint** : `numpy`/`scipy`/`matplotlib`/`psutil` désormais importables, `os`/`subprocess`/`socket` toujours bloqués
-- **git_clone → analyse auto** : le clonage d'un dépôt déclenche l'analyse du repo et propose des skills sous validation utilisateur
-- **API Vault** : validation `SUPPORTED_KEYS` — clé non supportée refusée
-- **register_skills** : signature `params_hints=` corrigée (au lieu de `metadata=`)
+- **Anti-RCE pipe-to-shell**: regex detection of `curl/wget ... | bash/sh/zsh`, `; bash`, `&& bash`, `eval $(curl ...)` — bypass via intermediate URL eliminated
+- **Sandbox anti-DoS**: watchdog thread `_thread.interrupt_main()` interrupts infinite loops after N seconds in restricted Python mode
+- **Strict ZK-STARK**: the physical invariants (negative energy, non-negative entropy, valid lattice) explicitly fail when the keys are absent — no more false positives on malformed structures
+- **Restricted sandbox `__import__`**: `numpy`/`scipy`/`matplotlib`/`psutil` now importable, `os`/`subprocess`/`socket` still blocked
+- **git_clone → auto analysis**: cloning a repository triggers the repo analysis and proposes skills pending user validation
+- **Vault API**: `SUPPORTED_KEYS` validation — unsupported key rejected
+- **register_skills**: `params_hints=` signature fixed (instead of `metadata=`)
 
-Extras : `pypdf` ajouté aux dépendances, dépréciations `fpdf2 ln=` éliminées (0 warning), `/api/run` accepte body JSON + query string.
+Extras: `pypdf` added to the dependencies, `fpdf2 ln=` deprecations eliminated (0 warnings), `/api/run` accepts JSON body + query string.
 
-**Validation** : 19/19 tests pytest · 7/7 tests cybersécurité · 0 DeprecationWarning. Voir [l'audit sécurité détaillé](#securite-souverainete).
+**Validation**: 19/19 pytest tests · 7/7 cybersecurity tests · 0 DeprecationWarning. See [the detailed security audit](#security--sovereignty).
 
-### v9.4 — Identité, mémoire & écran d'entrée
+### v9.4 — Identity, memory & entry screen
 
-Cette version ancre durablement **qui est Ratiss** et lui donne une **mémoire qui ne se perd jamais**. Tout est inclus : pas besoin d'un fichier externe.
+This version durably anchors **who Ratiss is** and gives it a **memory that is never lost**. Everything is included: no external file needed.
 
-### 1. L'identité souveraine — Ratiss, peu importe le modèle branché
-Ratiss n'est pas un LLM générique dans le cloud. C'est **Ratiss**, instance souveraine **JohnKing0**, déployée localement. Que tu branches Claude, Gemini, GPT, Nemotron ou un modèle local, **c'est toujours Ratiss qui répond** — jamais un modèle qui dirait « je suis GPT » ou « je suis Gemini ». L'identité est définie dans `config/sovereign_identity.py` (le « Sovereign Prompt ») et injectée en tête de chaque appel LLM.
+### 1. The sovereign identity — Ratiss, whatever model is plugged in
+Ratiss is not a generic LLM in the cloud. It is **Ratiss**, the sovereign **JohnKing0** instance, deployed locally. Whether you plug in Claude, Gemini, GPT, Nemotron or a local model, **it is always Ratiss that answers** — never a model that would say “I am GPT” or “I am Gemini”. The identity is defined in `config/sovereign_identity.py` (the “Sovereign Prompt”) and injected at the head of every LLM call.
 
-### 2. La mémoire persistante — jamais perdu, même en travail long
-La mémoire personnelle de Ratiss vit **en dehors du contexte du modèle**, sur le disque du nœud souverain (`config/sovereign_memory.json`). Ratiss se souvient de qui il est, de ses capacités, du profil de l'utilisateur et des derniers souvenirs. Quand un travail est long et que le contexte du modèle se sature, les éléments essentiels sont **rechargés à chaque appel** et réinjectés en tête du préfixe système : Ratiss ne se perd jamais.
+### 2. Persistent memory — never lost, even on long work
+Ratiss's personal memory lives **outside the model context**, on the disk of the sovereign node (`config/sovereign_memory.json`). Ratiss remembers who it is, its capabilities, the user's profile and the latest memories. When work is long and the model context saturates, the essentials are **reloaded on every call** and re-injected at the head of the system prefix: Ratiss never loses itself.
 
-### 3. L'écran d'entrée & l'onboarding — comme ouvrir un logiciel
-Au premier démarrage, un bel écran d'accueil présente Ratiss et propose une **synchronisation initiale en une fois** : ton âge, tes données métier (rôle, domaine), ton objectif, et ton choix de sécurité. Ensuite, Ratiss se souvient de toi à chaque conversation.
+### 3. The entry screen & onboarding — like opening a piece of software
+At first start, a proper welcome screen introduces Ratiss and offers a **one-time initial synchronization**: your age, your business data (role, domain), your goal, and your security choice. Afterwards, Ratiss remembers you in every conversation.
 
-<a id="securite-entree"></a>
-### 4. Le standard de sécurité d'entrée — souverain par défaut
-On reste **fermé et local** par défaut (`sovereign`). Ouvrir le cloud (`cloud_opt_in`) est un choix explicite de l'utilisateur — jamais par défaut. Voir [la section dédiée](#securite-entree).
+<a id="entry-security-standard"></a>
+### 4. The entry security standard — sovereign by default
+We stay **closed and local** by default (`sovereign`). Opening the cloud (`cloud_opt_in`) is an explicit user choice — never a default. See [the dedicated section](#entry-security-standard).
 
-### 5. Calibrage optimiste pour téléphone et tablette
-L'interface a été calibrée pour le tactile : gros boutons (≥ 48 px), défilement naturel, écran d'accueil responsive, respect des préférences de mouvement réduit. Et Ratiss parle en **langage naturel**, sans jargon inutile.
+### 5. Optimistic calibration for phone and tablet
+The interface was calibrated for touch: large buttons (≥ 48 px), natural scrolling, responsive welcome screen, respect for reduced-motion preferences. And Ratiss speaks in **natural language**, without useless jargon.
 
-### 6. Le logo
-Un logo unique fusionne **quantum** (orbites), **topologie** (réseau de Betti, trou central) et **souveraineté** (bouclier). Voir `assets/ratiss_logo.svg` et `assets/ratiss_logo.png`.
+### 6. The logo
+A single logo fuses **quantum** (orbits), **topology** (Betti network, central hole) and **sovereignty** (shield). See `assets/ratiss_logo.svg` and `assets/ratiss_logo.png`.
 
 <div align="center">
 
-<img src="assets/ratiss_logo.png" alt="Logo RATISS" width="140" height="140" />
+<img src="assets/ratiss_logo.png" alt="RATISS logo" width="140" height="140" />
 
 </div>
 
 ---
 
-<a id="captures"></a>
-## 📸 Captures d'écran
+<a id="screenshots"></a>
+## 📸 Screenshots
 
-### Interface React v9.3 — Pipeline Aeon Prime
+### React v9.3 interface — Aeon Prime pipeline
 
-| Interface principale (Chat) | Paramètres (6 onglets) |
+| Main interface (Chat) | Settings (6 tabs) |
 |:---:|:---:|
 | ![Main Chat](screenshots/01-main-chat.png) | ![Settings](screenshots/02-settings-tabs.png) |
 
-| Modèles & LLM | Agent & Science |
+| Models & LLM | Agent & Science |
 |:---:|:---:|
 | ![Models](screenshots/03-models-llm.png) | ![Agent Science](screenshots/04-agent-science.png) |
 
-| Intégrations | Gestionnaire de fichiers |
+| Integrations | File manager |
 |:---:|:---:|
 | ![Integrations](screenshots/05-integrations-full.png) | ![File Manager](screenshots/06-file-manager.png) |
 
-| Analyse de fichiers | Sovereign Lab |
+| File analysis | Sovereign Lab |
 |:---:|:---:|
 | ![File Analysis](screenshots/07-file-manager-with-file.png) | ![Sovereign Lab](screenshots/08-sovereign-lab.png) |
 
 ---
 
-<a id="vue-densemble"></a>
-## 🔭 Vue d'ensemble
+<a id="overview"></a>
+## 🔭 Overview
 
-RATISS (Real-time Adaptive Topological & Integrative Scientific System) Aeon Prime est un agent scientifique autonome qui :
+RATISS (Real-time Adaptive Topological & Integrative Scientific System) Aeon Prime is an autonomous scientific agent that:
 
 <div align="center">
 
-| 🧭 Planifie | ⚙️ Exécute | 🔐 Certifie | 📦 Génère |
+| 🧭 Plans | ⚙️ Executes | 🔐 Certifies | 📦 Generates |
 |:---:|:---:|:---:|:---:|
-| Tâche en langage naturel | Boucle **ReAct** (Think → Act → Observe) | Preuve **ZK-STARK** RISC Zero (< 1 ms) | Artéfacts téléchargeables |
-| Nemotron 3 Ultra / OpenRouter | Détection de blocage | Invariants physiques préservés | JSON, PDF, PNG, HTML |
+| Natural-language task | **ReAct** loop (Think → Act → Observe) | **ZK-STARK** proof RISC Zero (< 1 ms) | Downloadable artifacts |
+| Nemotron 3 Ultra / OpenRouter | Stall detection | Physical invariants preserved | JSON, PDF, PNG, HTML |
 
 </div>
 
-> **Le tout dans un Memory Guard strict (7500 Mo, CPU-only), 100 % souverain : aucune donnée ne quitte la machine sans clé API explicite.**
+> **All of it within a strict Memory Guard (7500 MB, CPU-only), 100% sovereign: no data leaves the machine without an explicit API key.**
 
-### ✨ Nouveautés — v9.3
+### ✨ What's new — v9.3
 
-Cette version introduit une **interface React immersive**, des **intégrations externes** vers la chaîne de recherche ouverte, et un **import de fichiers universel** :
+This version introduces an **immersive React interface**, **external integrations** to the open research chain, and a **universal file import**:
 
-| Fonctionnalité | Description |
+| Feature | Description |
 |---|---|
-| 🖥️ **UI React 19 + Vite 6** | Chat agentique temps réel, rendu markdown, raisonnement dépliable, timeline d'exécution |
-| 🔌 **9 intégrations externes** | GitHub (priorité), arXiv, Zenodo, OpenAlex, Crossref, RCSB PDB, IBM Quantum, Overleaf, Tavily |
-| 📁 **Import universel** | Tous formats (PDB, CSV, HDF5, PDF, LaTeX, code, images, archives) — détection automatique du type scientifique |
-| ⚙️ **Section Paramètres** | 6 onglets : Modèles & LLM, Agent & Science, Intégrations, Fichiers, Archivage, Pont IA |
-| 🧠 **Options agentiques** | Profondeur de raisonnement, certification ZK auto, génération PDF auto, limites mémoire/étapes, identité ORCID |
-| 🔄 **Pont SSE backend** | `/api/chat` streame la cascade d'événements (plan → Think/Act/Observe → ZK → résumé) vers le lecteur React |
+| 🖥️ **React 19 + Vite 6 UI** | Real-time agentic chat, markdown rendering, collapsible reasoning, execution timeline |
+| 🔌 **9 external integrations** | GitHub (priority), arXiv, Zenodo, OpenAlex, Crossref, RCSB PDB, IBM Quantum, Overleaf, Tavily |
+| 📁 **Universal import** | All formats (PDB, CSV, HDF5, PDF, LaTeX, code, images, archives) — automatic scientific type detection |
+| ⚙️ **Settings section** | 6 tabs: Models & LLM, Agent & Science, Integrations, Files, Archiving, AI Bridge |
+| 🧠 **Agentic options** | Reasoning depth, automatic ZK certification, automatic PDF generation, memory/step limits, ORCID identity |
+| 🔄 **Backend SSE bridge** | `/api/chat` streams the cascade of events (plan → Think/Act/Observe → ZK → summary) to the React reader |
 
 ---
 
-<a id="identite-souveraine"></a>
-## 🪪 Identité souveraine (Sovereign Prompt)
+<a id="sovereign-identity-sovereign-prompt"></a>
+## 🪪 Sovereign identity (Sovereign Prompt)
 
-Ratiss est ancré par une identité souveraine, indépendante du modèle branché. C'est le « Sovereign Prompt » de `config/sovereign_identity.py`, injecté en tête de **chaque** appel LLM.
+Ratiss is anchored by a sovereign identity, independent of the plugged-in model. This is the “Sovereign Prompt” of `config/sovereign_identity.py`, injected at the head of **every** LLM call.
 
 ```text
-IDENTITÉ SOUVERAINE — RATISS V9 AEON PRIME
-Instance : JohnKing0
-Système : RATISS V9 Aeon Prime — Integrated Quantum Ecosystem
-Plateforme : Nœud Local Souverain (Ryzen 5 PRO, Linux)
-Architecture : Modules déterministes, vérifiables cryptographiquement (ZK-STARK)
-              et physiquement exécutables.
+SOVEREIGN IDENTITY — RATISS V9 AEON PRIME
+Instance: JohnKing0
+System: RATISS V9 Aeon Prime — Integrated Quantum Ecosystem
+Platform: Sovereign Local Node (Ryzen 5 PRO, Linux)
+Architecture: Deterministic modules, cryptographically verifiable (ZK-STARK)
+              and physically executable.
 
-QUI TU ES — Tu n'es pas un LLM générique dans le cloud. Tu es RATISS,
-instance souveraine JohnKing0. Peu importe le modèle branché, tu réponds
-au nom de Ratiss. Tu ne dis jamais « je suis GPT » ou « je suis Gemini ».
-COMMENT TU PARLES — Reste naturel et humain. Évite le jargon inutile.
-TA MÉMOIRE — Elle est persistante, en dehors du contexte du modèle.
-SOuveraineté — Aucune donnée vers le cloud sans clé API explicite.
+WHO YOU ARE — You are not a generic LLM in the cloud. You are RATISS,
+sovereign instance JohnKing0. Whatever model is plugged in, you answer
+in the name of Ratiss. You never say “I am GPT” or “I am Gemini”.
+HOW YOU SPEAK — Stay natural and human. Avoid useless jargon.
+YOUR MEMORY — It is persistent, outside the model context.
+Sovereignty — No data to the cloud without an explicit API key.
 ```
 
-| Fichier | Rôle |
+| File | Role |
 |---|---|
-| `config/sovereign_identity.py` | Déclaration d'identité ancrée + construction du préfixe système + signature ZK |
-| `orchestrator/llm_router.py` | `_sovereign_system_prefix()` fusionne identité + mémoire et l'injecte dans `complete()` |
-| `orchestrator/nemotron_client.py` | `SYSTEM_PROMPT` ancé « Tu es RATISS (instance JohnKing0) » |
+| `config/sovereign_identity.py` | Anchored identity declaration + system prefix construction + ZK signature |
+| `orchestrator/llm_router.py` | `_sovereign_system_prefix()` merges identity + memory and injects it into `complete()` |
+| `orchestrator/nemotron_client.py` | `SYSTEM_PROMPT` anchored on “You are RATISS (JohnKing0 instance)” |
 
-> Quand Ratiss signe une preuve ZK ou un artéfact, il est identifié comme **JohnKing0**. Voir `GET /api/identity`.
+> When Ratiss signs a ZK proof or an artifact, it is identified as **JohnKing0**. See `GET /api/identity`.
 
 ---
 
-<a id="memoire-persistante"></a>
-## 🧠 Mémoire persistante (hors contexte du modèle)
+<a id="persistent-memory-outside-the-model-context"></a>
+## 🧠 Persistent memory (outside the model context)
 
-La mémoire personnelle de Ratiss vit **sur le disque**, pas dans le contexte du modèle. C'est ce qui l'empêche de se perdre au milieu d'un travail long.
+Ratiss's personal memory lives **on disk**, not in the model context. That is what keeps it from getting lost in the middle of a long job.
 
-| Composant | Détail |
+| Component | Detail |
 |---|---|
-| Fichier | `config/sovereign_memory.json` (jamais committé, dans `.gitignore`) |
+| File | `config/sovereign_memory.json` (never committed, in `.gitignore`) |
 | Module | `kernel/system/sovereign_memory.py` (`SovereignMemory`) |
-| Contenu | Identité ancrée · capacités · profil utilisateur · mode de sécurité · souvenirs datés |
-| Injection | `build_system_prefix()` reconstruit le préfixe (identité + profil + derniers souvenirs) à chaque appel |
-| Sauvegarde auto | À la fin de chaque exécution, l'agent enregistre un souvenir de la tâche terminée |
+| Content | Anchored identity · capabilities · user profile · security mode · dated memories |
+| Injection | `build_system_prefix()` rebuilds the prefix (identity + profile + latest memories) on every call |
+| Auto-save | At the end of each run, the agent stores a memory of the completed task |
 
-**Pourquoi ça change tout :** même si le contexte du modèle est saturé après une longue tâche, le prochain appel recharge l'identité et l'essentiel des souvenirs en tête du préfixe. Ratiss reprend là où il en était, sans rien oublier de qui il est ni de la personne.
+**Why this changes everything:** even if the model context is saturated after a long task, the next call reloads the identity and the essentials of the memories at the head of the prefix. Ratiss picks up where it left off, forgetting nothing about who it is or who the person is.
 
 ```bash
-# Voir la mémoire de Ratiss
+# View Ratiss's memory
 curl http://localhost:12000/api/memory/state
 
-# Ajouter un souvenir
+# Add a memory
 curl -X POST http://localhost:12000/api/memory/remember \
   -H "Content-Type: application/json" \
   -d '{"content":"Préfère les réponses courtes","kind":"preference"}'
 
-# Qui est Ratiss ?
+# Who is Ratiss?
 curl http://localhost:12000/api/identity
 ```
 
 ---
 
-<a id="ecran-entree"></a>
-## 🚪 Écran d'entrée & onboarding
+<a id="entry-screen--onboarding"></a>
+## 🚪 Entry screen & onboarding
 
-Au premier lancement, Ratiss affiche un **écran d'accueil** comme quand on ouvre un logiciel : le logo, une présentation de qui il est, puis une synchronisation initiale en une fois.
+On first launch, Ratiss displays a **welcome screen**, like when you open a piece of software: the logo, a presentation of who it is, then a one-time initial synchronization.
 
-| Étape | Ce qui est collecté |
+| Step | What is collected |
 |---|---|
-| Bienvenue | Présentation de Ratiss (identité, capacités, souveraineté) |
-| Profil | Prénom, âge, activité (rôle), domaine, objectif |
-| Sécurité | Choix du standard : souverain (fermé) ou cloud opt-in |
-| Synchronisation | `POST /api/profile/onboard` — mémorisé localement, une seule fois |
+| Welcome | Presentation of Ratiss (identity, capabilities, sovereignty) |
+| Profile | First name, age, occupation (role), domain, goal |
+| Security | Choice of standard: sovereign (closed) or cloud opt-in |
+| Synchronization | `POST /api/profile/onboard` — stored locally, once only |
 
-| Composant | Rôle |
+| Component | Role |
 |---|---|
-| `app/frontend/src/components/OnboardingGate.tsx` | Vérifie l'onboarding, affiche l'écran d'accueil si nécessaire |
-| `app/frontend/src/components/WelcomeScreen.tsx` | L'écran d'accueil (logo + collecte profil + choix sécurité) |
+| `app/frontend/src/components/OnboardingGate.tsx` | Checks onboarding, displays the welcome screen if needed |
+| `app/frontend/src/components/WelcomeScreen.tsx` | The welcome screen (logo + profile collection + security choice) |
 
-> Une fois validé, le choix est mémorisé (localStorage + mémoire persistante). Ratiss ne redemande pas. Et si le backend ne répond pas, on n'enferme pas l'utilisateur : calibrage optimiste, on entre dans l'app.
+> Once validated, the choice is remembered (localStorage + persistent memory). Ratiss does not ask again. And if the backend does not answer, the user is not locked out: optimistic calibration, you enter the app.
 
 ---
 
-<a id="securite-entree"></a>
-## 🔐 Standard de sécurité d'entrée
+<a id="entry-security-standard"></a>
+## 🔐 Entry security standard
 
-Le standard de sécurité est choisi dès l'écran d'accueil. **Souverain par défaut, cloud opt-in explicite.**
+The security standard is chosen right at the welcome screen. **Sovereign by default, explicit cloud opt-in.**
 
-| Mode | Comportement |
+| Mode | Behavior |
 |---|---|
-| 🛡️ **Souverain** (défaut, fermé) | Tout reste local. Aucune donnée vers le cloud. Aucune clé API requise. Recommandé. |
-| ☁️ **Cloud opt-in** (ouvert) | L'utilisateur a explicitement accepté d'ouvrir le cloud (clés API configurées). Il garde le contrôle total. |
+| 🛡️ **Sovereign** (default, closed) | Everything stays local. No data to the cloud. No API key required. Recommended. |
+| ☁️ **Cloud opt-in** (open) | The user has explicitly agreed to open the cloud (API keys configured). They keep full control. |
 
 ```bash
-# Changer le standard à tout moment
+# Change the standard at any time
 curl -X POST http://localhost:12000/api/profile/security \
   -H "Content-Type: application/json" \
   -d '{"security_mode":"cloud_opt_in"}'
 
-# Voir le profil et le mode actuel
+# View the current profile and mode
 curl http://localhost:12000/api/profile
 ```
 
-> Choix justifié : la souveraineté est la valeur fondatrice du projet. On reste donc **fermé par défaut**, et on n'ouvre le cloud que sur décision explicite de l'utilisateur — jamais automatiquement.
+> Justified choice: sovereignty is the founding value of the project. So we stay **closed by default**, and the cloud is only opened on an explicit user decision — never automatically.
 
 ---
 
@@ -289,540 +289,540 @@ curl http://localhost:12000/api/profile
 ## 🏛️ Architecture
 
     ratiss-kkl/
-    ├── app/                    # Serveur FastAPI + UI
-    │   ├── server.py           #   HTTP + WebSocket multiplexé + endpoints identité/mémoire/onboarding
-    │   ├── frontend/           #   UI React 19 + Vite 6 (source)
+    ├── app/                    # FastAPI server + UI
+    │   ├── server.py           #   HTTP + multiplexed WebSocket + identity/memory/onboarding endpoints
+    │   ├── frontend/           #   React 19 + Vite 6 UI (source)
     │   │   └── src/components/ #     WelcomeScreen, OnboardingGate, SettingsBranch…
-    │   └── static/             #   Build servi par FastAPI + D3.js local (280 Ko)
-    ├── kernel/                 # Noyau scientifique RATISS V9
-    │   ├── main.py             #   Pipeline orchestré (Topo → Quantique → ZK)
-    │   ├── bridge.py           #   Pont typé vers l'orchestrateur
-    │   ├── solvers/            #   Lanczos ED, homologie persistante, tryperposition
+    │   └── static/             #   Build served by FastAPI + local D3.js (280 KB)
+    ├── kernel/                 # RATISS V9 scientific kernel
+    │   ├── main.py             #   Orchestrated pipeline (Topo → Quantum → ZK)
+    │   ├── bridge.py           #   Typed bridge to the orchestrator
+    │   ├── solvers/            #   Lanczos ED, persistent homology, tryperposition
     │   ├── connectors/         #   IBM Quantum, Quandela, AlphaFold, RCSB
-    │   ├── core/               #   Refinery, modules de base
-    │   ├── system/             #   Memory Guard (7500 Mo) + sovereign_memory.py (mémoire persistante)
-    │   └── zk/                 #   Prover ZK-STARK RISC Zero
-    ├── orchestrator/           # Agent agentique
-    │   ├── agent.py            #   Boucle Plan → Execute → Certify → Artifact + refine() + mémoire
-    │   ├── llm_router.py        #   Routeur LLM multi-fournisseurs + préfixe système souverain
-    │   ├── nemotron_client.py  #   Client OpenRouter (Nemotron) + planificateur local
-    │   ├── skill_manager.py    #   Registre des compétences noyau
-    │   ├── cascade.py          #   Émetteur d'événements WebSocket
-    │   ├── auto_improve.py     #   Couche RLM : analyse trajectoire + leçons + validation ZK
-    │   └── harness_manager.py  #   Continual Harness : état persistant + CRUD + versioning
+    │   ├── core/               #   Refinery, core modules
+    │   ├── system/             #   Memory Guard (7500 MB) + sovereign_memory.py (persistent memory)
+    │   └── zk/                 #   ZK-STARK prover RISC Zero
+    ├── orchestrator/           # Agentic agent
+    │   ├── agent.py            #   Plan → Execute → Certify → Artifact loop + refine() + memory
+    │   ├── llm_router.py        #   Multi-provider LLM router + sovereign system prefix
+    │   ├── nemotron_client.py  #   OpenRouter client (Nemotron) + local planner
+    │   ├── skill_manager.py    #   Core skill registry
+    │   ├── cascade.py          #   WebSocket event emitter
+    │   ├── auto_improve.py     #   RLM layer: trajectory analysis + lessons + ZK validation
+    │   └── harness_manager.py  #   Continual Harness: persistent state + CRUD + versioning
     ├── config/                 # allowed_imports.txt + sovereign_identity.py (Sovereign Prompt)
-    ├── assets/                 # Logo + bannière (ratiss_logo.svg/png, ratiss_banner.svg/png)
-    ├── security/               # Sécurité souveraine
-    │   ├── session_manager.py  #   Sessions SQLite + auth PBKDF2
-    │   ├── token_hasher.py     #   PBKDF2-HMAC-SHA256 (600K itérations)
-    │   ├── workspace_isolator.py #  Isolation physique par session
-    │   └── sandbox_hardener.py #   NemoSandbox (Docker ou Python restreint)
-    ├── scripts/                # Outils
-    │   ├── init_vault.py       #   Initialise le coffre + admin
-    │   ├── import_skill.py     #   Importe/teste une compétence GitHub
-    │   ├── align_agent.py      #   Alignement + vérification
-    │   └── deploy.sh           #   Déploiement (local/docker/hf/vercel)
-    ├── tests/                  # Tests (auto-amélioration, pipeline)
-    ├── harness/                # État du Continual Harness (généré à l'exécution)
-    ├── data/pdb/               # Structures PDB locales (4MZI, 4MZR)
+    ├── assets/                 # Logo + banner (ratiss_logo.svg/png, ratiss_banner.svg/png)
+    ├── security/               # Sovereign security
+    │   ├── session_manager.py  #   SQLite sessions + PBKDF2 auth
+    │   ├── token_hasher.py     #   PBKDF2-HMAC-SHA256 (600K iterations)
+    │   ├── workspace_isolator.py #  Physical isolation per session
+    │   └── sandbox_hardener.py #   NemoSandbox (Docker or restricted Python)
+    ├── scripts/                # Tools
+    │   ├── init_vault.py       #   Initializes the vault + admin
+    │   ├── import_skill.py     #   Imports/tests a GitHub skill
+    │   ├── align_agent.py      #   Alignment + verification
+    │   └── deploy.sh           #   Deployment (local/docker/hf/vercel)
+    ├── tests/                  # Tests (auto-improvement, pipeline)
+    ├── harness/                # Continual Harness state (generated at runtime)
+    ├── data/pdb/               # Local PDB structures (4MZI, 4MZR)
     ├── Dockerfile              # HF Spaces / VPS (port 7860)
-    ├── requirements.txt        # Dépendances minimales (frugal)
-    └── .env.example            # Variables d'environnement (sans secrets)
+    ├── requirements.txt        # Minimal dependencies (frugal)
+    └── .env.example            # Environment variables (no secrets)
 
-## 🔄 Couche d'auto-amélioration (RLM / Continual Harness) — v9.2
+## 🔄 Auto-improvement layer (RLM / Continual Harness) — v9.2
 
-RATISS intègre désormais une **boucle d'auto-amélioration par validation**, inspirée
-des architectures **Recursive Language Model (RLM)** et **Continual Harness** de
-Prime Agent. À partir d'une tâche complexe **validée** (certification ZK-STARK), l'agent
-analyse sa propre trajectoire, en extrait des « leçons » et les réinjecte dans son
-harnais (prompts, compétences, mémoire, sous-agents) pour améliorer ses performances
-futures.
+RATISS now includes a **validation-based auto-improvement loop**, inspired by
+the **Recursive Language Model (RLM)** and **Continual Harness** architectures of
+Prime Agent. From a complex task that has been **validated** (ZK-STARK certification), the agent
+analyzes its own trajectory, extracts “lessons” from it and re-injects them into its
+harness (prompts, skills, memory, sub-agents) to improve its future
+performance.
 
 <a id="architecture"></a>
 ### Architecture
 
 ```
-[Exécution d'une tâche complexe]
+[Execution of a complex task]
         │
         ▼
-[Validation du résultat (ZK-STARK, invariants physiques)]
+[Result validation (ZK-STARK, physical invariants)]
         │
-        ▼ (si validé)
-[Analyse de la trajectoire : planification, étapes, raisonnements, artéfacts]
-        │
-        ▼
-[Extraction des « leçons » : patterns, heuristiques, méthodes efficaces, erreurs évitées]
+        ▼ (if validated)
+[Trajectory analysis: planning, steps, reasonings, artifacts]
         │
         ▼
-[Validation ZK des leçons (invariants physiques préservés)]
+[“Lesson” extraction: patterns, heuristics, effective methods, avoided errors]
         │
         ▼
-[Mise à jour du « Harness » : prompts, compétences, mémoire, sous-agents (CRUD + versioning)]
+[ZK validation of the lessons (physical invariants preserved)]
         │
         ▼
-[Amélioration des performances futures]
+[“Harness” update: prompts, skills, memory, sub-agents (CRUD + versioning)]
+        │
+        ▼
+[Future performance improvement]
 ```
 
 ### Modules
 
-| Module | Rôle |
+| Module | Role |
 |--------|------|
-| `orchestrator/auto_improve.py` | Analyse la trajectoire (plan, étapes, logs, résultats), extrait les patterns récurrents et génère des leçons structurées (JSON). Validation ZK des leçons. |
-| `orchestrator/harness_manager.py` | État persistant et versionné du harnais (prompts, compétences, mémoire, sous-agents). CRUD ciblé + snapshots horodatés + rollback. |
-| Commande `/refine` | Déclenche l'analyse de la trajectoire courante, propose des améliorations, et (après validation utilisateur) applique les mises à jour + génère un rapport PDF. |
+| `orchestrator/auto_improve.py` | Analyzes the trajectory (plan, steps, logs, results), extracts the recurring patterns and generates structured lessons (JSON). ZK validation of the lessons. |
+| `orchestrator/harness_manager.py` | Persistent, versioned harness state (prompts, skills, memory, sub-agents). Targeted CRUD + timestamped snapshots + rollback. |
+| `/refine` command | Triggers the analysis of the current trajectory, proposes improvements, and (after user validation) applies the updates + generates a PDF report. |
 
-### Types de leçons extraites
+### Types of extracted lessons
 
-| Type | Cible | Description |
+| Type | Target | Description |
 |------|-------|-------------|
-| `pattern` | prompt | Séquence d'actions validée (à réutiliser pour ce domaine) |
-| `heuristic` | skill | Règle générale dérivée (budget temps, paramètres par défaut) |
-| `pitfall` | prompt/subagent | Erreur/piège rencontré (à éviter) |
-| `memory` | memory | Fait observable stable (Betti 4MZI, E₀ t-J, PDB disponible) |
+| `pattern` | prompt | Validated action sequence (to be reused for this domain) |
+| `heuristic` | skill | Derived general rule (time budget, default parameters) |
+| `pitfall` | prompt/subagent | Encountered error/trap (to avoid) |
+| `memory` | memory | Stable observable fact (Betti 4MZI, E₀ t-J, PDB available) |
 
-### Intégration avec les compétences existantes
+### Integration with the existing skills
 
-- **`zk_proof`** : certifie que les leçons proposées ne violent pas les invariants physiques (énergie < 0, entropie ≥ 0, dimensions réseau valides). Aucune mise à jour n'est appliquée si la preuve ZK est invalide.
-- **`generate_pdf`** : produit un rapport d'auto-amélioration (versioning des leçons appliquées, trajectoire analysée, validation ZK).
-- **`file_editor`** : les fichiers de configuration du harnais (`harness/harness_state.json`, snapshots) sont gérés via le `HarnessManager`.
+- **`zk_proof`**: certifies that the proposed lessons do not violate the physical invariants (energy < 0, entropy ≥ 0, valid lattice dimensions). No update is applied if the ZK proof is invalid.
+- **`generate_pdf`**: produces an auto-improvement report (versioning of the applied lessons, analyzed trajectory, ZK validation).
+- **`file_editor`**: the harness configuration files (`harness/harness_state.json`, snapshots) are managed through the `HarnessManager`.
 
-### Commande `/refine`
+### `/refine` command
 
-Dans le chat, après avoir exécuté une tâche complexe :
+In the chat, after running a complex task:
 
 ```
-/refine          → analyse la trajectoire, affiche les leçons proposées (bannière Accepter/Rejeter)
-/refine apply    → analyse ET applique les mises à jour au harnais + génère le rapport PDF
-/harness         → affiche l'état courant du harnais (version, mémoire, prompts, trajectoires)
+/refine          → analyzes the trajectory, displays the proposed lessons (Accept/Reject banner)
+/refine apply    → analyzes AND applies the harness updates + generates the PDF report
+/harness         → displays the current harness state (version, memory, prompts, trajectories)
 ```
 
-L'UI affiche une **bannière de proposition** avec chaque leçon (type, cible, confiance,
-contenu) et des boutons **✓ Appliquer au harnais** / **✕ Rejeter**. L'application
-incrémente la version du harnais et crée un snapshot horodaté (rollback possible).
+The UI displays a **proposal banner** with each lesson (type, target, confidence,
+content) and **✓ Apply to harness** / **✕ Reject** buttons. Applying
+increments the harness version and creates a timestamped snapshot (rollback possible).
 
-### Persistance (`harness/`)
+### Persistence (`harness/`)
 
 ```
 harness/
-├── harness_state.json     # état courant (versionné)
-├── lessons/               # archive des leçons appliquées (JSON, une par fichier)
-├── trajectories/          # trajectoires de tâches analysables par /refine
-└── versions/              # snapshots horodatés (v0000_*.json, v0001_*.json, ...)
+├── harness_state.json     # current state (versioned)
+├── lessons/               # archive of the applied lessons (JSON, one per file)
+├── trajectories/          # task trajectories analyzable by /refine
+└── versions/              # timestamped snapshots (v0000_*.json, v0001_*.json, ...)
 ```
 
-Souveraineté : l'analyse est **déterministe** (heuristiques locales, aucun appel LLM
-externe requis). Si Nemotron/OpenRouter est disponible, un enrichissement optionnel
-peut être branché, mais le chemin par défaut reste local.
+Sovereignty: the analysis is **deterministic** (local heuristics, no external LLM
+call required). If Nemotron/OpenRouter is available, an optional enrichment
+can be plugged in, but the default path stays local.
 
-<a id="demarrage-rapide"></a>
-## 🚀 Démarrage rapide
+<a id="quick-start"></a>
+## 🚀 Quick start
 
 ```bash
-# 1. Installer les dépendances Python
+# 1. Install the Python dependencies
 pip install -r requirements.txt
 
-# 2. (Optionnel) Configurer les clés API
+# 2. (Optional) Configure the API keys
 cp .env.example .env
 
-# 3. Build du frontend React → app/static/
+# 3. Build the React frontend → app/static/
 cd app/frontend && npm install && npm run build && cd ../..
 
-# 4. Lancer le serveur
+# 4. Start the server
 python -m app.server   # UI → http://localhost:12000
 ```
 
-> 💡 Le frontend React (Vite + TypeScript + Tailwind) se build dans `app/static/` et est servi directement par FastAPI. Aucun serveur Node en production.
+> 💡 The React frontend (Vite + TypeScript + Tailwind) builds into `app/static/` and is served directly by FastAPI. No Node server in production.
 >
-> 🔧 **Développement frontend** : `cd app/frontend && npm run dev` (Vite dev server sur `:5173`, proxy vers le backend `:12000`).
+> 🔧 **Frontend development**: `cd app/frontend && npm run dev` (Vite dev server on `:5173`, proxy to the backend `:12000`).
 
-### Exemples de tâches
+### Task examples
 
 <details>
-<summary><b>📝 12 exemples de prompts scientifiques</b></summary>
+<summary><b>📝 12 scientific prompt examples</b></summary>
 
 ```
-Analyse 4MZI, extrais les Betti, génère un graphique et un rapport PDF, certifie ZK
-Calcule l'état fondamental t-J sur grille 4×4
-Recherche arXiv sur quantum spin liquid et génère un rapport PDF
-Recherche PubMed sur p53 MDM2
-Recherche ChEMBL pour l'aspirine
-Exécute git --version dans le terminal
-Navigue vers https://arxiv.org et prends un screenshot
-Calcule la matrice en python (det + eigenvalues)
-Recherche web sur Lanczos algorithm quantum
-Crée le fichier analyse.py avec un script numpy
-Pipeline complet quantique + topologie + certification
-Tryperposition unifiée Q ⊗ I ⊗ M
+Analyze 4MZI, extract the Betti numbers, generate a chart and a PDF report, certify with ZK
+Compute the t-J ground state on a 4×4 grid
+Search arXiv for quantum spin liquid and generate a PDF report
+Search PubMed for p53 MDM2
+Search ChEMBL for aspirin
+Run git --version in the terminal
+Navigate to https://arxiv.org and take a screenshot
+Compute the matrix in python (det + eigenvalues)
+Web search on Lanczos algorithm quantum
+Create the analyse.py file with a numpy script
+Full quantum + topology + certification pipeline
+Unified tryperposition Q ⊗ I ⊗ M
 ```
 
 </details>
 
 ---
 
-## 🖥️ Interface web — UI React immersive (v9.3)
+## 🖥️ Web interface — immersive React UI (v9.3)
 
-RATISS embarque désormais une interface React/TypeScript moderne, centrée sur
-la fenêtre de chat principale avec un rendu agentique en temps réel.
+RATISS now ships a modern React/TypeScript interface, centered on
+the main chat window with real-time agentic rendering.
 
-**Architecture frontend** (`app/frontend/`) :
+**Frontend architecture** (`app/frontend/`):
 - **Vite 6 + React 19 + TypeScript + Tailwind v4**
-- **Sidebar** : sessions, import, mode Competition, profil souverain
-- **MessageBubble** : markdown rendu (react-markdown + remark-gfm), raisonnement
-  dépliable, nombres de Betti, preuve ZK, artéfacts
-- **ThinkingLoader** : décomposition agentique des étapes en direct
-- **ChatInput** : zone de saisie + attachements + mode raisonnement
-- **PredictiveSuggestions** : suggestions contextuelles
-- **AgenticActionCard** : cartes d'actions agentiques (PDF, recherche…)
-- **Timeline agentique** : RatissAgentViewer (exécution en direct)
-- **Panneaux d'inspiration** : SovereignLab, InteractiveTerminal, RatissLive,
+- **Sidebar**: sessions, import, Competition mode, sovereign profile
+- **MessageBubble**: rendered markdown (react-markdown + remark-gfm), collapsible
+  reasoning, Betti numbers, ZK proof, artifacts
+- **ThinkingLoader**: live agentic decomposition of the steps
+- **ChatInput**: input area + attachments + reasoning mode
+- **PredictiveSuggestions**: contextual suggestions
+- **AgenticActionCard**: agentic action cards (PDF, search…)
+- **Agentic timeline**: RatissAgentViewer (live execution)
+- **Inspiration panels**: SovereignLab, InteractiveTerminal, RatissLive,
   TopologicalVideoPlayer, VoiceManager, ChromeniumBrowser, SettingsBranch
 
-**Pont backend → frontend** :
-- `POST /api/chat` (SSE) — lance l'agent RATISS, streame les événements cascade
-  (plan → Think/Act/Observe → ZK → résumé) au format `{content|reasoning}`
-- Endpoints de compatibilité : `/api/stats`, `/api/config/*`, `/api/agentic/*`,
+**Backend → frontend bridge**:
+- `POST /api/chat` (SSE) — starts the RATISS agent, streams the cascade events
+  (plan → Think/Act/Observe → ZK → summary) in `{content|reasoning}` format
+- Compatibility endpoints: `/api/stats`, `/api/config/*`, `/api/agentic/*`,
   `/api/competition/*`, `/api/tts/*`, `/api/ratiss-shell/chat`
-- WebSocket `/ws` (multiplexé) toujours disponible pour le streaming temps réel
+- WebSocket `/ws` (multiplexed) still available for real-time streaming
 
-<a id="routeur-llm"></a>
-### 🧠 Routeur LLM multi-fournisseurs
+<a id="multi-provider-llm-router"></a>
+### 🧠 Multi-provider LLM router
 
-RATISS supporte désormais **4 fournisseurs LLM** pour la planification et le raisonnement :
+RATISS now supports **4 LLM providers** for planning and reasoning:
 
-| Fournisseur | Modèles | Variable d'environnement |
+| Provider | Models | Environment variable |
 |-------------|---------|------------------------|
 | **Anthropic** | Claude 3.5 Sonnet, Claude 3.5 Haiku, Claude 3 Opus | `ANTHROPIC_API_KEY` |
 | **Google Gemini** | Gemini 2.0 Flash, Gemini 1.5 Pro, Gemini 1.5 Flash | `GEMINI_API_KEY` |
 | **OpenAI** | GPT-4o, GPT-4o mini, o1 | `OPENAI_API_KEY` |
-| **OpenRouter** | Nemotron 3 Ultra, Llama 3.3 70B, DeepSeek R1, Qwen 2.5 72B — **+ tout modèle OpenRouter personnalisé** | `OPENROUTER_API_KEY` |
-| **Souverain** | RATISS Local (heuristique, hors cloud) | aucune clé requise |
+| **OpenRouter** | Nemotron 3 Ultra, Llama 3.3 70B, DeepSeek R1, Qwen 2.5 72B — **+ any custom OpenRouter model** | `OPENROUTER_API_KEY` |
+| **Sovereign** | RATISS Local (heuristic, cloud-free) | no key required |
 
-**Architecture** (`orchestrator/llm_router.py`) :
-- `LLMRouter` sélectionne le fournisseur selon le `model_id` (`anthropic/...`, `google/...`, `openai/...`, `openrouter/...`, `local/...`)
-- Chaque fournisseur expose `complete()` (chat libre) et `plan()` (planification structurée)
-- **Modèle OpenRouter personnalisable** : l'utilisateur peut saisir n'importe quel ID de modèle OpenRouter (ex: `meta-llama/llama-3.1-405b-instruct:free`, `mistralai/mistral-large:free`) — le routeur parse le `model_id` (split sur la première barre oblique) et route automatiquement vers le provider OpenRouter. Aucune liste figée.
-- **Fallback souverain** : si aucune clé n'est configurée ou si l'API échoue (401, timeout…), l'agent bascule automatiquement sur le planificateur heuristique local — aucune tâche ne reste bloquée
-- Configuration dynamique via l'UI : le sélecteur de modèles affiche les badges "Connecté/Non configuré" en temps réel
-- Aucune clé n'est jamais loggée
+**Architecture** (`orchestrator/llm_router.py`):
+- `LLMRouter` selects the provider according to the `model_id` (`anthropic/...`, `google/...`, `openai/...`, `openrouter/...`, `local/...`)
+- Each provider exposes `complete()` (free chat) and `plan()` (structured planning)
+- **Customizable OpenRouter model**: the user can enter any OpenRouter model ID (e.g. `meta-llama/llama-3.1-405b-instruct:free`, `mistralai/mistral-large:free`) — the router parses the `model_id` (split on the first slash) and automatically routes to the OpenRouter provider. No fixed list.
+- **Sovereign fallback**: if no key is configured or the API fails (401, timeout…), the agent automatically switches to the local heuristic planner — no task ever stays stuck
+- Dynamic configuration via the UI: the model selector displays the "Connected/Not configured" badges in real time
+- No key is ever logged
 
-**Configuration via l'API** :
+**Configuration via the API**:
 ```bash
-# Configurer une clé Anthropic
+# Configure an Anthropic key
 curl -X POST http://localhost:12000/api/config/key \
   -H "Content-Type: application/json" \
   -d '{"provider":"anthropic","api_key":"sk-ant-..."}'
 
-# Sélectionner le modèle par défaut
+# Select the default model
 curl -X POST http://localhost:12000/api/llm/select \
   -H "Content-Type: application/json" \
   -d '{"model_id":"anthropic/claude-3-5-sonnet"}'
 
-# Tester une connexion
+# Test a connection
 curl -X POST http://localhost:12000/api/llm/test \
   -H "Content-Type: application/json" \
   -d '{"model_id":"google/gemini-2.0-flash","prompt":"Bonjour"}'
 ```
 
-**Configuration via l'UI** : le badge "ENGINE" en haut du chat ouvre le sélecteur de modèles groupé par fournisseur. Le bouton "CONFIGURER CLÉS API →" permet d'injecter une clé pour n'importe quel fournisseur. La section **« Modèle OpenRouter personnalisé »** (encadré violet) permet de saisir n'importe quel ID de modèle OpenRouter (sans préfixe `openrouter/`), de l'ajouter à la liste et de le sélectionner — le modèle est sauvegardé dans le localStorage et persiste entre les sessions.
+**Configuration via the UI**: the "ENGINE" badge at the top of the chat opens the model selector grouped by provider. The "CONFIGURE API KEYS →" button lets you inject a key for any provider. The **“Custom OpenRouter model”** section (purple box) lets you enter any OpenRouter model ID (without the `openrouter/` prefix), add it to the list and select it — the model is saved in localStorage and persists across sessions.
 
-<a id="captures"></a>
-### Captures d'écran
+<a id="screenshots"></a>
+### Screenshots
 
-Voir `screenshots/ui-v9.3/` :
-- `01-main-chat.png` — Interface principale (chat + sidebar + sélecteur de mode)
-- `02-settings-tabs.png` — Branche Paramètres avec navigation par onglets (6 onglets)
-- `03-models-llm.png` — Onglet « Modèles & LLM » : configuration des clés API multi-provider + catalogue de modèles
-- `04-agent-science.png` — Onglet « Agent & Science » : profondeur de raisonnement, certification ZK auto, rapports PDF, limites, identité académique
-- `05-integrations.png` / `05-integrations-full.png` — Onglet « Intégrations » : GitHub (priorité), arXiv, Zenodo, OpenAlex, Crossref, RCSB PDB, IBM Quantum, Tavily
-- `06-file-manager.png` — Onglet « Fichiers » : import universel drag & drop (tous formats scientifiques)
-- `07-file-manager-with-file.png` — Fichier importé (CSV détecté automatiquement) avec actions d'analyse
-- `08-sovereign-lab.png` — SovereignLab (modules quantum t-J, topologie, pipeline Aeon)
+See `screenshots/ui-v9.3/`:
+- `01-main-chat.png` — Main interface (chat + sidebar + mode selector)
+- `02-settings-tabs.png` — Settings branch with tab navigation (6 tabs)
+- `03-models-llm.png` — “Models & LLM” tab: multi-provider API key configuration + model catalog
+- `04-agent-science.png` — “Agent & Science” tab: reasoning depth, automatic ZK certification, PDF reports, limits, academic identity
+- `05-integrations.png` / `05-integrations-full.png` — “Integrations” tab: GitHub (priority), arXiv, Zenodo, OpenAlex, Crossref, RCSB PDB, IBM Quantum, Tavily
+- `06-file-manager.png` — “Files” tab: universal drag & drop import (all scientific formats)
+- `07-file-manager-with-file.png` — Imported file (CSV auto-detected) with analysis actions
+- `08-sovereign-lab.png` — SovereignLab (quantum t-J modules, topology, Aeon pipeline)
 
-<a id="integrations-externes"></a>
-### Intégrations externes (chaîne de recherche ouverte)
+<a id="external-integrations-open-research-chain"></a>
+### External integrations (open research chain)
 
-RATISS s'intègre nativement aux outils de la science ouverte. Les jetons sont stockés localement (variables d'environnement) — souveraineté totale, jamais exposés.
+RATISS integrates natively with the tools of open science. The tokens are stored locally (environment variables) — total sovereignty, never exposed.
 
-| Intégration | Catégorie | Actions | Variable d'environnement |
+| Integration | Category | Actions | Environment variable |
 |-------------|-----------|---------|--------------------------|
-| **GitHub** (priorité) | Code & reproductibilité | recherche de repos, détails, langages | `GITHUB_TOKEN` |
-| arXiv | Publications | recherche de prépublications | publique (sans clé) |
-| OpenAlex | Publications | graphe scientifique (auteurs, concepts) | publique (sans clé) |
-| Crossref | Publications | métadonnées DOI | publique (sans clé) |
-| Zenodo | Données | recherche de datasets | `ZENODO_TOKEN` |
-| RCSB PDB | Biologie structurale | structures 3D de macromolécules | publique (sans clé) |
-| IBM Quantum | Calcul quantique | exécution de circuits QPU | `IBMQ_TOKEN` |
-| Overleaf | Documents | collaboration LaTeX | `OVERLEAF_TOKEN` |
-| Tavily | Recherche web | grounding factuel | `TAVILY_API_KEY` |
+| **GitHub** (priority) | Code & reproducibility | repo search, details, languages | `GITHUB_TOKEN` |
+| arXiv | Publications | preprint search | public (no key) |
+| OpenAlex | Publications | scientific graph (authors, concepts) | public (no key) |
+| Crossref | Publications | DOI metadata | public (no key) |
+| Zenodo | Data | dataset search | `ZENODO_TOKEN` |
+| RCSB PDB | Structural biology | 3D macromolecule structures | public (no key) |
+| IBM Quantum | Quantum computing | QPU circuit execution | `IBMQ_TOKEN` |
+| Overleaf | Documents | LaTeX collaboration | `OVERLEAF_TOKEN` |
+| Tavily | Web search | factual grounding | `TAVILY_API_KEY` |
 
-**Endpoints** : `GET /api/integrations` (statut), `POST /api/integrations/connect`, `POST /api/integrations/disconnect`, `POST /api/integrations/{id}/{action}`.
+**Endpoints**: `GET /api/integrations` (status), `POST /api/integrations/connect`, `POST /api/integrations/disconnect`, `POST /api/integrations/{id}/{action}`.
 
-### Import de fichiers universel
+### Universal file import
 
-RATISS accepte **tous les types de fichiers** via l'onglet « Fichiers » ou par glisser-déposer directement dans le chat. La détection automatique du format scientifique permet d'injecter chaque fichier dans le pipeline d'analyse agentique.
+RATISS accepts **all file types** via the “Files” tab or by drag-and-drop directly into the chat. The automatic detection of the scientific format lets every file be injected into the agentic analysis pipeline.
 
 | Type | Formats | Classification |
 |------|---------|----------------|
 | Structures | `.pdb`, `.cif`, `.xyz`, `.mol`, `.mol2`, `.sdf` | `structure_*` |
-| Données | `.csv`, `.tsv`, `.dat` | `data_*` |
-| Tableaux | `.npy`, `.npz`, `.h5`, `.hdf5` | `array_*` |
+| Data | `.csv`, `.tsv`, `.dat` | `data_*` |
+| Arrays | `.npy`, `.npz`, `.h5`, `.hdf5` | `array_*` |
 | Config | `.json`, `.yaml`, `.toml` | `config_*` |
 | Documents | `.pdf`, `.docx`, `.txt`, `.tex`, `.bib` | `document_*` / `latex` / `bibliography` |
 | Code | `.py`, `.ipynb`, `.r`, `.m`, `.js`, `.ts`, `.cpp`, `.c`, `.rs`, `.sh` | `code_*` |
-| Médias | `.png`, `.jpg`, `.svg`, `.mp4`, `.wav` | `image*` / `video` / `audio` |
+| Media | `.png`, `.jpg`, `.svg`, `.mp4`, `.wav` | `image*` / `video` / `audio` |
 | Archives | `.zip`, `.tar`, `.gz` | `archive_*` |
 
-**Endpoints** : `POST /api/files/upload` (multipart), `GET /api/files`, `DELETE /api/files/{id}`, `POST /api/files/analyze`.
+**Endpoints**: `POST /api/files/upload` (multipart), `GET /api/files`, `DELETE /api/files/{id}`, `POST /api/files/analyze`.
 
-<a id="api-rest"></a>
-## 📡 API REST
+<a id="rest-api"></a>
+## 📡 REST API
 
-| Endpoint | Méthode | Description |
+| Endpoint | Method | Description |
 |----------|---------|-------------|
-| `/api/health` | GET | Santé du système |
-| `/api/identity` | GET | Déclaration d'identité ancrée de Ratiss (JohnKing0 / RATISS V9 Aeon Prime) |
-| `/api/profile` | GET | Profil utilisateur (onboarding) + état de la mémoire persistante |
-| `/api/profile/onboard` | POST | Synchronisation initiale avec Ratiss (âge, données métier, sécurité) — une fois |
-| `/api/profile/security` | POST | Change le standard de sécurité (souverain / cloud opt-in) |
-| `/api/memory/state` | GET | État complet de la mémoire persistante de Ratiss |
-| `/api/memory/remember` | POST | Ajoute un souvenir à la mémoire persistante (body: `{content, kind?, confidence?}`) |
-| `/api/memory/{memory_id}` | DELETE | Oublie un souvenir précis |
-| `/api/memory` | GET | État du Memory Guard |
-| `/api/connectors` | GET | Statut des connecteurs API |
-| `/api/pdb` | GET | Structures PDB locales |
-| `/api/skills` | GET | 23 compétences disponibles |
-| `/api/run?task=...` | POST | Exécution synchrone (ReAct) |
-| `/api/chat` | POST | Chat principal SSE (streaming `{content\|reasoning}` vers l'UI React) |
-| `/api/stats` | GET/POST | Compteur de requêtes (compat UI) |
-| `/api/config/status` | GET | État de configuration — tous les fournisseurs LLM (Anthropic, Gemini, OpenAI, OpenRouter) |
-| `/api/config/key` | POST | Configure une clé API pour un fournisseur (body: `{provider, api_key, model_id?}`) |
-| `/api/llm/models` | GET | Catalogue des modèles LLM multi-fournisseurs |
-| `/api/llm/status` | GET | État des fournisseurs LLM (connecté/non configuré) |
-| `/api/llm/test` | POST | Teste une connexion LLM (body: `{model_id, prompt?}`) |
-| `/api/llm/select` | POST | Sélectionne le modèle LLM par défaut (body: `{model_id}`) |
-| `/api/agentic/decompose-task` | POST | Décomposition agentique d'un prompt en étapes |
-| `/api/agentic/predict-next` | POST | Suggestions prédictives contextuelles |
-| `/api/agentic/search-grounding` | POST | Recherche web pour grounding factuel |
-| `/api/competition/analyze` | POST | Analyse forensics d'un fichier attaché |
-| `/api/competition/execute` | POST | Exécution Python agentique (mode Phenix ODV) |
-| `/api/ratiss-shell/chat` | POST | Chat synchrone du shell RATISS |
-| `/api/tts/voices` | GET | Liste des voix TTS disponibles |
-| `/api/tts/status` | GET | État du moteur TTS |
-| `/api/terminal?command=...` | POST | Exécution directe terminal |
+| `/api/health` | GET | System health |
+| `/api/identity` | GET | Ratiss's anchored identity declaration (JohnKing0 / RATISS V9 Aeon Prime) |
+| `/api/profile` | GET | User profile (onboarding) + persistent memory state |
+| `/api/profile/onboard` | POST | Initial synchronization with Ratiss (age, business data, security) — once only |
+| `/api/profile/security` | POST | Changes the security standard (sovereign / cloud opt-in) |
+| `/api/memory/state` | GET | Full state of Ratiss's persistent memory |
+| `/api/memory/remember` | POST | Adds a memory to the persistent memory (body: `{content, kind?, confidence?}`) |
+| `/api/memory/{memory_id}` | DELETE | Forgets a specific memory |
+| `/api/memory` | GET | Memory Guard state |
+| `/api/connectors` | GET | Status of the API connectors |
+| `/api/pdb` | GET | Local PDB structures |
+| `/api/skills` | GET | 23 available skills |
+| `/api/run?task=...` | POST | Synchronous execution (ReAct) |
+| `/api/chat` | POST | Main SSE chat (streaming `{content\|reasoning}` to the React UI) |
+| `/api/stats` | GET/POST | Request counter (UI compat) |
+| `/api/config/status` | GET | Configuration state — all LLM providers (Anthropic, Gemini, OpenAI, OpenRouter) |
+| `/api/config/key` | POST | Configures an API key for a provider (body: `{provider, api_key, model_id?}`) |
+| `/api/llm/models` | GET | Multi-provider LLM model catalog |
+| `/api/llm/status` | GET | LLM provider state (connected/not configured) |
+| `/api/llm/test` | POST | Tests an LLM connection (body: `{model_id, prompt?}`) |
+| `/api/llm/select` | POST | Selects the default LLM model (body: `{model_id}`) |
+| `/api/agentic/decompose-task` | POST | Agentic decomposition of a prompt into steps |
+| `/api/agentic/predict-next` | POST | Contextual predictive suggestions |
+| `/api/agentic/search-grounding` | POST | Web search for factual grounding |
+| `/api/competition/analyze` | POST | Forensics analysis of an attached file |
+| `/api/competition/execute` | POST | Agentic Python execution (Phenix ODV mode) |
+| `/api/ratiss-shell/chat` | POST | Synchronous RATISS shell chat |
+| `/api/tts/voices` | GET | List of the available TTS voices |
+| `/api/tts/status` | GET | TTS engine state |
+| `/api/terminal?command=...` | POST | Direct terminal execution |
 | `/api/browser` | POST | Browser automation (navigate, click, screenshot...) |
-| `/api/python` | POST | Exécution Python sandbox |
-| `/api/search` | POST | Recherche web (Tavily/DuckDuckGo) |
-| `/api/file` | POST | Éditeur de fichiers (view, create, str_replace) |
-| `/api/refine` | POST | Auto-amélioration : analyse une trajectoire, renvoie leçons + propositions (body: `{"apply": true}` pour appliquer) |
-| `/api/harness` | GET | État du harnais d'auto-amélioration (version, mémoire, prompts, trajectoires) |
-| `/api/harness/rollback` | POST | Restaure une version antérieure du harnais (body: `{"version": N}`) |
-| `/api/integrations` | GET | Statut des 9 intégrations externes (GitHub, arXiv, Zenodo, OpenAlex, Crossref, PDB, IBM, Overleaf, Tavily) |
-| `/api/integrations/connect` | POST | Connecte une intégration (body: `{integration_id, token}`) |
-| `/api/integrations/disconnect` | POST | Déconnecte une intégration (body: `{integration_id}`) |
-| `/api/integrations/{id}/{action}` | POST | Exécute une action d'intégration (ex: `github/search`, `arxiv/search`, `pdb/fetch`) |
-| `/api/files/upload` | POST | Import universel de fichiers (multipart, tous types, détection automatique du format) |
-| `/api/files` | GET | Liste des fichiers importés |
-| `/api/files/{file_id}` | DELETE | Supprime un fichier importé |
-| `/api/files/analyze` | POST | Analyse agentique d'un fichier importé (body: `{file_id, instruction}`) |
-| `/api/preview/{filename}` | GET | Sert un artéfact (PDF, PNG, HTML) |
-| `/api/artifacts/{session}` | GET | Liste des artéfacts |
-| `/ws` | WebSocket | Canal multiplexé temps réel (chat + terminal + browser + python) |
+| `/api/python` | POST | Sandboxed Python execution |
+| `/api/search` | POST | Web search (Tavily/DuckDuckGo) |
+| `/api/file` | POST | File editor (view, create, str_replace) |
+| `/api/refine` | POST | Auto-improvement: analyzes a trajectory, returns lessons + proposals (body: `{"apply": true}` to apply) |
+| `/api/harness` | GET | Auto-improvement harness state (version, memory, prompts, trajectories) |
+| `/api/harness/rollback` | POST | Restores an earlier harness version (body: `{"version": N}`) |
+| `/api/integrations` | GET | Status of the 9 external integrations (GitHub, arXiv, Zenodo, OpenAlex, Crossref, PDB, IBM, Overleaf, Tavily) |
+| `/api/integrations/connect` | POST | Connects an integration (body: `{integration_id, token}`) |
+| `/api/integrations/disconnect` | POST | Disconnects an integration (body: `{integration_id}`) |
+| `/api/integrations/{id}/{action}` | POST | Executes an integration action (e.g.: `github/search`, `arxiv/search`, `pdb/fetch`) |
+| `/api/files/upload` | POST | Universal file import (multipart, all types, automatic format detection) |
+| `/api/files` | GET | List of the imported files |
+| `/api/files/{file_id}` | DELETE | Deletes an imported file |
+| `/api/files/analyze` | POST | Agentic analysis of an imported file (body: `{file_id, instruction}`) |
+| `/api/preview/{filename}` | GET | Serves an artifact (PDF, PNG, HTML) |
+| `/api/artifacts/{session}` | GET | List of the artifacts |
+| `/ws` | WebSocket | Real-time multiplexed channel (chat + terminal + browser + python) |
 
-<a id="competences"></a>
-## 🛠️ Compétences (36 actions)
+<a id="skills-36-actions"></a>
+## 🛠️ Skills (36 actions)
 
-### 🔬 Scientifiques (6)
-| Action | Description | Catégorie |
+### 🔬 Scientific (6)
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `load_pdb` | Chargement structure PDB | Biologie |
-| `topology` | Homologie persistante (GUDHI / fallback natif) | Topologie |
-| `quantum_ed` | Diagonalisation exacte Lanczos (modèle t-J) | Physique |
-| `zk_proof` | Preuve ZK-STARK RISC Zero | Cryptographie |
-| `full_pipeline` | Pipeline complet RATISS | Orchestration |
-| `tryperposition` | Tryperposition unifiée Q ⊗ I ⊗ M | Orchestration |
+| `load_pdb` | PDB structure loading | Biology |
+| `topology` | Persistent homology (GUDHI / native fallback) | Topology |
+| `quantum_ed` | Lanczos exact diagonalization (t-J model) | Physics |
+| `zk_proof` | ZK-STARK proof RISC Zero | Cryptography |
+| `full_pipeline` | Full RATISS pipeline | Orchestration |
+| `tryperposition` | Unified tryperposition Q ⊗ I ⊗ M | Orchestration |
 
-### 💻 Terminal (3) — agent agentique souverain
-| Action | Description | Catégorie |
+### 💻 Terminal (3) — sovereign agentic agent
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `terminal` | Exécute une commande shell (streaming WebSocket temps réel) | Terminal |
-| `git_clone` | Clone un dépôt Git dans le workspace | Terminal |
-| `repo_register_skills` | Valide et enregistre les skills proposées depuis un repo cloné | Terminal |
+| `terminal` | Runs a shell command (real-time WebSocket streaming) | Terminal |
+| `git_clone` | Clones a Git repository into the workspace | Terminal |
+| `repo_register_skills` | Validates and registers the skills proposed from a cloned repo | Terminal |
 
-Commandes autorisées : git, pip, python, curl, wget, ls, cat, grep, find, tar, npm, node, dot, etc.
-Sécurité : allowlist stricte, détection de patterns dangereux par sous-chaînes **et regex** (`rm -rf /`, `sudo`, `curl ... | bash`, `wget ... | sh`, fork bomb, `mkfs`, `dd if=`, `nc -l`, `shutdown`), timeout 30s. Le clonage d'un dépôt déclenche automatiquement l'analyse du repo (langage, catégorie scientifique, points d'entrée) et propose des skills sous validation utilisateur.
+Allowed commands: git, pip, python, curl, wget, ls, cat, grep, find, tar, npm, node, dot, etc.
+Security: strict allowlist, dangerous-pattern detection by substrings **and regex** (`rm -rf /`, `sudo`, `curl ... | bash`, `wget ... | sh`, fork bomb, `mkfs`, `dd if=`, `nc -l`, `shutdown`), 30s timeout. Cloning a repository automatically triggers the repo analysis (language, scientific category, entry points) and proposes skills pending user validation.
 
-### 🌐 Web scientifique (6)
-| Action | Description | Catégorie |
+### 🌐 Scientific web (6)
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `web_fetch` | Récupère le contenu d'une URL (HTML, JSON, texte) | Web |
-| `web_arxiv` | Recherche sur arXiv (prépublications) | Web |
-| `web_pubmed` | Recherche sur PubMed (E-utilities NCBI) | Web |
-| `web_chembl` | Recherche de composés sur ChEMBL | Web |
-| `web_pdb` | Récupère une structure PDB (RCSB API) | Web |
-| `web_alphafold` | Récupère une prédiction AlphaFold DB | Web |
+| `web_fetch` | Fetches the content of a URL (HTML, JSON, text) | Web |
+| `web_arxiv` | Searches arXiv (preprints) | Web |
+| `web_pubmed` | Searches PubMed (NCBI E-utilities) | Web |
+| `web_chembl` | Searches compounds on ChEMBL | Web |
+| `web_pdb` | Fetches a PDB structure (RCSB API) | Web |
+| `web_alphafold` | Fetches an AlphaFold DB prediction | Web |
 
-### 🎨 Génération de contenu (4)
-| Action | Description | Catégorie |
+### 🎨 Content generation (4)
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `generate_pdf` | Rapport scientifique PDF (fpdf2, en-tête RATISS, sections) | Contenu |
-| `generate_chart` | Graphique PNG (bar, line, scatter, pie — matplotlib) | Contenu |
-| `generate_webpage` | Page HTML previewable (style intégré) | Contenu |
-| `generate_betti_diagram` | Diagramme de persistance (topologie) | Contenu |
+| `generate_pdf` | PDF scientific report (fpdf2, RATISS header, sections) | Content |
+| `generate_chart` | PNG chart (bar, line, scatter, pie — matplotlib) | Content |
+| `generate_webpage` | Previewable HTML page (inline style) | Content |
+| `generate_betti_diagram` | Persistence diagram (topology) | Content |
 
-### 🛡️ Scan de vulnérabilités (7) — audit défensif légal
-| Action | Description | Catégorie |
+### 🛡️ Vulnerability scanning (7) — legal defensive audit
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `vuln_authenticate` | Activer le mode scan (mot de passe opérateur requis) | VulnScan |
-| `vuln_scan_network` | Scan réseau (ports, services, bannières) | VulnScan |
-| `vuln_audit_web` | Audit web (headers, TLS, configuration) | VulnScan |
-| `vuln_audit_code` | SAST — audit statique de code source | VulnScan |
-| `vuln_audit_config` | Audit config (fichiers sensibles, permissions) | VulnScan |
-| `vuln_scan_full` | Audit complet consolidé (réseau + web + code + config) | VulnScan |
-| `vuln_get_report` | Rapport consolidé JSON des vulnérabilités | VulnScan |
+| `vuln_authenticate` | Activate scan mode (operator password required) | VulnScan |
+| `vuln_scan_network` | Network scan (ports, services, banners) | VulnScan |
+| `vuln_audit_web` | Web audit (headers, TLS, configuration) | VulnScan |
+| `vuln_audit_code` | SAST — static source code audit | VulnScan |
+| `vuln_audit_config` | Config audit (sensitive files, permissions) | VulnScan |
+| `vuln_scan_full` | Consolidated full audit (network + web + code + config) | VulnScan |
+| `vuln_get_report` | Consolidated JSON vulnerability report | VulnScan |
 
-⚠️ **Module bridé** : détecte et rapporte uniquement. Ne peut PAS attaquer, exploiter, brute-forcer ou installer de backdoor. Voir [la section dédiée](#vuln-scanner).
+⚠️ **Restricted module**: detects and reports only. Can NOT attack, exploit, brute-force or install a backdoor. See [the dedicated section](#vulnerability-scanning-module--legal-defensive-audit).
 
-### 🤖 Outils agentiques (5) — v9.1
-| Action | Description | Catégorie |
+### 🤖 Agentic tools (5) — v9.1
+| Action | Description | Category |
 |--------|-------------|-----------|
-| `browser` | Navigation web Playwright (navigate, click, type, extract, screenshot, scroll, state, back) | Browser |
-| `python_execute` | Exécution Python sandbox (numpy, scipy, matplotlib, timeout 30s) | Code |
-| `google_search` | Recherche web générale (Tavily API + DuckDuckGo fallback) | Web |
-| `file_editor` | Éditeur de fichiers (view, create, str_replace, insert, undo, list) | Files |
-| `file_saver` | Sauvegarder du contenu arbitraire dans le workspace | Files |
+| `browser` | Playwright web navigation (navigate, click, type, extract, screenshot, scroll, state, back) | Browser |
+| `python_execute` | Sandboxed Python execution (numpy, scipy, matplotlib, 30s timeout) | Code |
+| `google_search` | General web search (Tavily API + DuckDuckGo fallback) | Web |
+| `file_editor` | File editor (view, create, str_replace, insert, undo, list) | Files |
+| `file_saver` | Save arbitrary content into the workspace | Files |
 
-Tous les artéfacts sont previewables directement dans l'UI (iframe pour HTML, embed pour PDF, img pour PNG/SVG).
+All the artifacts are previewable directly in the UI (iframe for HTML, embed for PDF, img for PNG/SVG).
 
-## 🔌 Connecteurs API scientifiques
+## 🔌 Scientific API connectors
 
-| Connecteur | Mode | Fallback |
+| Connector | Mode | Fallback |
 |------------|------|----------|
-| IBM Quantum | Live (si token) | Lanczos ED local |
-| Quandela | Live (si token) | Simulateur photonique local |
-| AlphaFold DB | API publique | — |
-| RCSB PDB | API publique | — |
-| OpenRouter (Nemotron) | Live (si clé) | Planificateur local déterministe |
+| IBM Quantum | Live (if token) | Local Lanczos ED |
+| Quandela | Live (if token) | Local photonic simulator |
+| AlphaFold DB | Public API | — |
+| RCSB PDB | Public API | — |
+| OpenRouter (Nemotron) | Live (if key) | Deterministic local planner |
 
-<a id="securite-souverainete"></a>
-## 🔒 Sécurité & souveraineté
+<a id="security--sovereignty"></a>
+## 🔒 Security & sovereignty
 
-| Couche | Mécanisme |
+| Layer | Mechanism |
 |--------|-----------|
-| 🧠 **Memory Guard** | Limite stricte 7500 Mo, surveillance temps réel |
-| 🔑 **Sessions** | SQLite local, jetons PBKDF2-HMAC-SHA256 (600 000 itérations) |
-| 📂 **Isolation** | Workspace physique par session, anti path-traversal |
-| 🐳 **Sandbox** | NemoSandbox — Docker éphémère (réseau désactivé, mem 2g, read-only) ou Python restreint (`__builtins__` filtrés, `__import__` restreint à une liste blanche, `numpy`/`scipy`/`matplotlib`/`psutil` autorisés, `os`/`subprocess`/`socket` bloqués) |
-| ⏱️ **Sandbox timeout** | Mode restreint : watchdog thread `_thread.interrupt_main()` — boucle infinie interrompue après N secondes (anti-DoS) |
-| 🖥️ **Terminal** | Allowlist stricte + détection par sous-chaînes **et regex** : `curl ... \| bash`, `wget ... \| sh`, `; bash`, `&& bash`, `eval $(curl ...)` bloqués (anti-RCE pipe-to-shell) |
-| 🔐 **API Vault** | Chiffrement au repos Fernet (AES + HMAC), chmod 600, validation `SUPPORTED_KEYS` — clé non supportée refusée |
-| 🔏 **ZK-STARK** | Invariants physiques validés strictement : énergie négative, entropie non négative, lattice valide. Aucune valeur par défaut sûre — structure mal formée = preuve INVALIDE |
-| 🛡️ **Souveraineté** | Aucune donnée envoyée vers un service cloud sans clé API explicite |
-| 🔐 **Tokens intégrations** | Stockés localement (variables d'environnement), jamais loggés |
+| 🧠 **Memory Guard** | Strict 7500 MB limit, real-time monitoring |
+| 🔑 **Sessions** | Local SQLite, PBKDF2-HMAC-SHA256 tokens (600,000 iterations) |
+| 📂 **Isolation** | Physical workspace per session, anti path-traversal |
+| 🐳 **Sandbox** | NemoSandbox — ephemeral Docker (network disabled, mem 2g, read-only) or restricted Python (filtered `__builtins__`, `__import__` restricted to a whitelist, `numpy`/`scipy`/`matplotlib`/`psutil` allowed, `os`/`subprocess`/`socket` blocked) |
+| ⏱️ **Sandbox timeout** | Restricted mode: watchdog thread `_thread.interrupt_main()` — infinite loop interrupted after N seconds (anti-DoS) |
+| 🖥️ **Terminal** | Strict allowlist + detection by substrings **and regex**: `curl ... \| bash`, `wget ... \| sh`, `; bash`, `&& bash`, `eval $(curl ...)` blocked (anti-RCE pipe-to-shell) |
+| 🔐 **API Vault** | Fernet encryption at rest (AES + HMAC), chmod 600, `SUPPORTED_KEYS` validation — unsupported key rejected |
+| 🔏 **ZK-STARK** | Physical invariants strictly validated: negative energy, non-negative entropy, valid lattice. No safe default value — malformed structure = INVALID proof |
+| 🛡️ **Sovereignty** | No data sent to a cloud service without an explicit API key |
+| 🔐 **Integration tokens** | Stored locally (environment variables), never logged |
 
-### Audit sécurité v9.4.1 (post-corrections)
-7 vulnérabilités/bugs identifiés par tests de pénétration et **tous corrigés** :
+### Security audit v9.4.1 (post-fixes)
+7 vulnerabilities/bugs identified by penetration testing and **all fixed**:
 
-| # | Vulnérabilité | Sévérité | Statut |
+| # | Vulnerability | Severity | Status |
 |---|---|:---:|:---:|
-| 1 | Contournement filtre `curl\|bash` par URL interposée | 🔴 HAUTE | ✅ Regex |
-| 2 | `git_clone` ne déclenchait pas l'analyse auto | 🟡 MOYENNE | ✅ Corrigé |
-| 3 | `register_skills` échec silencieux (`metadata=` invalide) | 🟡 MOYENNE | ✅ Corrigé |
-| 4 | Clé API non supportée acceptée dans le vault | 🟢 FAIBLE | ✅ Validé |
-| 5 | Sandbox Python sans timeout (DoS possible) | 🔴 HAUTE | ✅ Watchdog |
-| 6 | `numpy`/`scipy`/`matplotlib` non importables en sandbox | 🟡 MOYENNE | ✅ `__import__` restreint |
-| 7 | ZK-STARK faux positifs sur structure mal formée | 🔴 HAUTE | ✅ Invariants stricts |
+| 1 | `curl\|bash` filter bypass via intermediate URL | 🔴 HIGH | ✅ Regex |
+| 2 | `git_clone` did not trigger the auto analysis | 🟡 MEDIUM | ✅ Fixed |
+| 3 | `register_skills` silent failure (invalid `metadata=`) | 🟡 MEDIUM | ✅ Fixed |
+| 4 | Unsupported API key accepted in the vault | 🟢 LOW | ✅ Validated |
+| 5 | Python sandbox without timeout (possible DoS) | 🔴 HIGH | ✅ Watchdog |
+| 6 | `numpy`/`scipy`/`matplotlib` not importable in the sandbox | 🟡 MEDIUM | ✅ Restricted `__import__` |
+| 7 | ZK-STARK false positives on malformed structure | 🔴 HIGH | ✅ Strict invariants |
 
-**Validation finale** : 19/19 tests pytest · 7/7 tests cybersécurité · 0 DeprecationWarning.
+**Final validation**: 19/19 pytest tests · 7/7 cybersecurity tests · 0 DeprecationWarning.
 
-<a id="vuln-scanner"></a>
-### 🛡️ Module de scan de vulnérabilités — audit défensif légal
+<a id="vulnerability-scanning-module--legal-defensive-audit"></a>
+### 🛡️ Vulnerability scanning module — legal defensive audit
 
-RATISS intègre un **module de scan de vulnérabilités** inspiré des outils d'audit professionnels, conçu pour un usage **défensif et légal** : audit de vos propres systèmes ou de systèmes avec autorisation explicite (pentest, bug bounty, consultation).
+RATISS includes a **vulnerability scanning module** inspired by professional audit tools, designed for **defensive and legal** use: auditing your own systems or systems with explicit authorization (pentest, bug bounty, consulting).
 
-#### Activation par mot de passe
-Le module est **désactivé par défaut**. Il ne s'active qu'après authentification par l'opérateur souverain (mot de passe haché PBKDF2, 600K itérations — jamais stocké en clair). Une session dure 2 heures.
+#### Activation by password
+The module is **disabled by default**. It only activates after authentication by the sovereign operator (PBKDF2-hashed password, 600K iterations — never stored in clear text). A session lasts 2 hours.
 
 ```
-# Via l'API ou l'agent :
-vuln_authenticate(password="••••••••••••")  # Active le mode scan
+# Via the API or the agent:
+vuln_authenticate(password="••••••••••••")  # Activates scan mode
 vuln_scan_full(host="example.com", url="https://example.com", code_path="./src")
 ```
 
-#### Bridage architectural — RATISS ne peut PAS attaquer
+#### Architectural restrictions — RATISS can NOT attack
 
-Le module est **bridé par construction**. Il détecte et rapporte, mais ne peut JAMAIS :
+The module is **restricted by construction**. It detects and reports, but can NEVER:
 
-| ❌ Action interdite | ✅ Action autorisée |
+| ❌ Forbidden action | ✅ Allowed action |
 |---|---|
-| Exploiter (Metasploit, payloads, SQLi/XSS/RCE) | Détecter les patterns vulnérables (SAST) |
-| Brute-force de mots de passe | Vérifier la présence de headers de sécurité |
-| Installer backdoors / reverse shells | Lister les ports ouverts (TCP connect passif) |
-| Modifier / supprimer / défigurer | Lire les bannières de services |
-| DDoS / syn flood / slowloris | Rapporter avec recommandations de remédiation |
+| Exploit (Metasploit, payloads, SQLi/XSS/RCE) | Detect the vulnerable patterns (SAST) |
+| Brute-force passwords | Check for the presence of security headers |
+| Install backdoors / reverse shells | List the open ports (passive TCP connect) |
+| Modify / delete / deface | Read the service banners |
+| DDoS / syn flood / slowloris | Report with remediation recommendations |
 
-Toute tentative d'appeler une action offensive lève `RuntimeError("ACTION_OFFENSIVE_INTERDITE")`.
+Any attempt to call an offensive action raises `RuntimeError("ACTION_OFFENSIVE_INTERDITE")`.
 
-#### Capacités de scan
+#### Scanning capabilities
 
 | Scanner | Description |
 |---------|-------------|
-| **Réseau** (`vuln_scan_network`) | Détection de ports ouverts (TCP connect), fingerprinting passif de bannières, détection de services non sécurisés (FTP, Telnet, Redis sans auth, RDP/SMB exposé) |
-| **Web** (`vuln_audit_web`) | Analyse des headers de sécurité (HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy), vérification TLS (version, cipher, expiration du certificat), détection de fuite d'informations (Server, X-Powered-By) |
-| **SAST** (`vuln_audit_code`) | Analyse statique de code source : SQL injection, XSS, secrets codés en dur (API keys, AWS, GitHub PAT, private keys), désérialisation non sécurisée (pickle, yaml.load, eval), path traversal, fonctions dangereuses (eval, exec, os.system), crypto faible (MD5, SHA1, DES, ECB), debug en production |
-| **Config** (`vuln_audit_config`) | Détection de fichiers sensibles exposés (.env, .git/credentials, id_rsa, .npmrc, .pgpass, wp-config.php), vérification des permissions (world-readable) |
-| **Consolidé** (`vuln_scan_full`) | Tous les scans ci-dessus + rapport consolidé avec sévérités (CRITICAL/HIGH/MEDIUM/LOW), référence OWASP Top 10 2021, et recommandations de remédiation |
+| **Network** (`vuln_scan_network`) | Open port detection (TCP connect), passive banner fingerprinting, insecure service detection (FTP, Telnet, Redis without auth, exposed RDP/SMB) |
+| **Web** (`vuln_audit_web`) | Security header analysis (HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy), TLS verification (version, cipher, certificate expiration), information leak detection (Server, X-Powered-By) |
+| **SAST** (`vuln_audit_code`) | Static source code analysis: SQL injection, XSS, hard-coded secrets (API keys, AWS, GitHub PAT, private keys), unsafe deserialization (pickle, yaml.load, eval), path traversal, dangerous functions (eval, exec, os.system), weak crypto (MD5, SHA1, DES, ECB), debug in production |
+| **Config** (`vuln_audit_config`) | Detection of exposed sensitive files (.env, .git/credentials, id_rsa, .npmrc, .pgpass, wp-config.php), permission verification (world-readable) |
+| **Consolidated** (`vuln_scan_full`) | All the scans above + consolidated report with severities (CRITICAL/HIGH/MEDIUM/LOW), OWASP Top 10 2021 reference, and remediation recommendations |
 
-#### Cas d'usage entreprise (consultation cybersécurité)
+#### Enterprise use cases (cybersecurity consulting)
 
-1. **Audit pré-contractuel** : Scanner le système d'un prospect pour produire un rapport de vulnérabilités et démontrer la valeur d'ARTISS comme système souverain.
-2. **Rapport de remédiation** : « Voici ce que nous avons découvert, voici comment corriger » — l'outil est bridé donc vous pouvez montrer le code source en toute transparence au client.
-3. **Conformité** : Alignement OWASP Top 10 2021, recommandations NIST/OWASP, traçabilité (scan_id, timestamp).
-4. **Souveraineté africaine** : 100 % local, aucun cloud, aucune donnée envoyée à l'extérieur. ARTISS comme alternative souveraine à la Silicon Valley pour le marché camerounais et africain.
+1. **Pre-contractual audit**: Scan a prospect's system to produce a vulnerability report and demonstrate the value of ARTISS as a sovereign system.
+2. **Remediation report**: “Here is what we found, here is how to fix it” — the tool is restricted, so you can show the source code to the client in full transparency.
+3. **Compliance**: OWASP Top 10 2021 alignment, NIST/OWASP recommendations, traceability (scan_id, timestamp).
+4. **African sovereignty**: 100% local, no cloud, no data sent outside. ARTISS as a sovereign alternative to Silicon Valley for the Cameroonian and African market.
 
-> ⚠️ **Cadre légal** : Au Cameroun, la loi n° 2010/013 sur la cybersécurité (Articles 78-80) et la Convention de Budapest sur la cybercriminalité encadrent le scan de systèmes. Scannez uniquement les systèmes dont vous êtes propriétaire ou avec autorisation explicite et écrite.
+> ⚠️ **Legal framework**: In Cameroon, law No. 2010/013 on cybersecurity (Articles 78-80) and the Budapest Convention on Cybercrime govern the scanning of systems. Only scan systems you own or with explicit written authorization.
 
-**Tests** : 69/69 tests dédiés (bridage, auth, SAST, config, réseau, rapport).
+**Tests**: 69/69 dedicated tests (restrictions, auth, SAST, config, network, report).
 
-#### 🧬 Analyse topologique transdisciplinaire (signature RATISS)
+#### 🧬 Transdisciplinary topological analysis (RATISS signature)
 
-La **touche unique** de RATISS : l'homologie persistante (qui sert à reconnaître les patterns dans les sciences) est transplantée vers la cybersécurité. La surface d'attaque devient un **nuage de points topologique** dans un espace de features (sévérité radiale, angle OWASP, exposabilité), et sa structure révèle les chaînes d'attaque :
+The **unique touch** of RATISS: persistent homology (used to recognize patterns across the sciences) is transplanted into cybersecurity. The attack surface becomes a **topological point cloud** in a feature space (radial severity, OWASP angle, exposability), and its structure reveals the attack chains:
 
-| Nombre de Betti | Signification en cybersécurité |
+| Betti number | Meaning in cybersecurity |
 |---|---|
-| **β₀** (composantes connexes) | Îlots de vulnérabilités isolés |
-| **β₁** (cycles 1D) | **Chaînes d'attaque (kill chains)** — cycles reliant plusieurs vulnérabilités exploitables en séquence |
-| **β₂** (cavités 2D) | Vulnérabilités multidimensionnelles profondes |
-| **Persistance** | Vulnérabilités qui survivent à plusieurs échelles = les plus critiques |
+| **β₀** (connected components) | Isolated islands of vulnerabilities |
+| **β₁** (1D cycles) | **Attack chains (kill chains)** — cycles linking several exploitable vulnerabilities in sequence |
+| **β₂** (2D cavities) | Deep multidimensional vulnerabilities |
+| **Persistence** | Vulnerabilities that survive across several scales = the most critical |
 
-**Score de risque topologique** (0-100) : `β0·10 + β1·25 + β2·15 + persistance·30`
+**Topological risk score** (0-100): `β0·10 + β1·25 + β2·15 + persistance·30`
 
-Module : `security/transdisc_security.py`. Tests : 19 tests dédiés (nuage de points, homologie, kill chains, chiffrement).
+Module: `security/transdisc_security.py`. Tests: 19 dedicated tests (point cloud, homology, kill chains, encryption).
 
 ---
 
-<a id="deploiement"></a>
-## 📦 Déploiement
+<a id="deployment"></a>
+## 📦 Deployment
 
 ```bash
-./scripts/deploy.sh local    # serveur local
-./scripts/deploy.sh docker   # conteneur Docker
+./scripts/deploy.sh local    # local server
+./scripts/deploy.sh docker   # Docker container
 ./scripts/deploy.sh hf       # Hugging Face Spaces
-./scripts/deploy.sh vercel   # UI statique Vercel
+./scripts/deploy.sh vercel   # Vercel static UI
 ```
 
 ---
 
-## 🧩 Dépendances
+## 🧩 Dependencies
 
-**Requises** (Python 3.11+) — frugal : `fastapi`, `uvicorn`, `websockets`, `numpy`, `scipy`, `psutil`, `matplotlib`, `fpdf2`, `pypdf`, `cryptography`
+**Required** (Python 3.11+) — frugal: `fastapi`, `uvicorn`, `websockets`, `numpy`, `scipy`, `psutil`, `matplotlib`, `fpdf2`, `pypdf`, `cryptography`
 
-**Optionnelles** (fallbacks natifs si absentes) : `qiskit`, `qiskit-ibm-runtime`, `gudhi`, `perceval`, `biopython`
+**Optional** (native fallbacks if absent): `qiskit`, `qiskit-ibm-runtime`, `gudhi`, `perceval`, `biopython`
 
-**Frontend** : Vite 6, React 19, TypeScript 5, Tailwind v4, react-markdown, remark-gfm, D3.js (servi localement)
+**Frontend**: Vite 6, React 19, TypeScript 5, Tailwind v4, react-markdown, remark-gfm, D3.js (served locally)
 
 ---
 
-## 📄 Licence
+## 📄 License
 
 **MIT** — Jonathan Evina, 2025-2026
 
@@ -830,15 +830,15 @@ Module : `security/transdisc_security.py`. Tests : 19 tests dédiés (nuage de p
 
 <div align="center">
 
-<img src="assets/ratiss_logo.png" alt="Logo RATISS" width="120" height="120" />
+<img src="assets/ratiss_logo.png" alt="RATISS logo" width="120" height="120" />
 
-**⚛️ RATISS Aeon Prime** — *Agent scientifique autonome souverain*
+**⚛️ RATISS Aeon Prime** — *Sovereign autonomous scientific agent*
 
-Conçu avec une logique scientifique : physique quantique · topologie computationnelle · biologie structurale · cryptographie ZK-STARK
+Designed with scientific logic: quantum physics · computational topology · structural biology · ZK-STARK cryptography
 
 *Real-time Adaptive Topological & Integrative Scientific System*
 
-**Instance souveraine : JohnKing0** · Propriété intellectuelle : JOHNKING0 & architecte Jonathan Evina
+**Sovereign instance: JohnKing0** · Intellectual property: JOHNKING0 & architect Jonathan Evina
 
 </div>
 
